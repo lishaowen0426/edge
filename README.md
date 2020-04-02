@@ -6,28 +6,29 @@ The directory layout explains the code
 
 ├── Master
 
-​	  		└── node.py              *the main controller*     
+​	  		└── node.py                        *the main controller*     
 
 ├── benchmark
 
-​			   ├── benchmark.py
+​			   ├── benchmark.py             *tasks to run on edge devices*
 
 ​			  └── redis_benchmark.py
 
-├── logger.py
+├── logger.py                                   *for logging*
 
 ├── monitor
 
-​	 └── monitor.py
+​	 └── monitor.py                         *analyze data on master*
 
 ├── regx.py
 
-├── reporter
+├── reporter                                    *run on edge to collect data*
 
 │  └── sar.py
 
 └── utils
 
-  ├── docker.py
+  ├── docker.py                              *module for master to interact with docker*
 
-  ├── ssh.py
+  ├── ssh.py                                   *module for ssh connections*
+

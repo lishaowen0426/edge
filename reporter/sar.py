@@ -82,5 +82,5 @@ class SarReporter(object):
 if __name__ == '__main__':
 
 
-    sar = SarReporter(dbhost='106.52.248.140', passwd='19950426')
+    sar = SarReporter(dbhost='106.52.248.140')
     sar.run(2)

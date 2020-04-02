@@ -75,7 +75,7 @@ if __name__ == '__main__':
     redis = RedisBenchmark(cmd = '/usr/local/bin/redis-benchmark -t set -q -l ', metric='SET' )
 
 
-    node = Node('ubuntu', '106.53.181.173', '19950426Li')
+    node = Node('ubuntu')
     node.addTask(redis)
 
 

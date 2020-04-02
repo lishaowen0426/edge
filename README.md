@@ -4,31 +4,15 @@ The directory layout explains the code
 
 
 
-├── Master
+Master:                    *the main controller*   
 
-​	  		└── node.py                        *the main controller*     
+Benchmark:           *tasks to run on edge devices*
 
-├── benchmark
+Monitor:              *analyze data on master*
 
-​			   ├── benchmark.py             *tasks to run on edge devices*
+Reporter:                            *run on edge to collect data*
 
-​			  └── redis_benchmark.py
+utils. docker.py:                             *module for master to interact with docker*
 
-├── logger.py                                   *for logging*
-
-├── monitor
-
-​	 └── monitor.py                         *analyze data on master*
-
-├── regx.py
-
-├── reporter                                    *run on edge to collect data*
-
-│  └── sar.py
-
-└── utils
-
-  ├── docker.py                              *module for master to interact with docker*
-
-  ├── ssh.py                                   *module for ssh connections*
+utils: ssh.py                                *module for ssh connections*
 

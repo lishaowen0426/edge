@@ -4,17 +4,15 @@ The directory layout explains the code
 
 
 
-'''bash
-
 ├── Master
 
-​	  └── node.py                
+​	  		└── node.py              *the main controller*     
 
 ├── benchmark
 
-​		 ├── benchmark.py
+​			   ├── benchmark.py
 
-​		└── redis_benchmark.py
+​			  └── redis_benchmark.py
 
 ├── logger.py
 
@@ -33,9 +31,3 @@ The directory layout explains the code
   ├── docker.py
 
   ├── ssh.py
-
-  └── tools.pybash
-
-
-
-'''
